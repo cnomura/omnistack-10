@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipedeschamps/devradar.git"
+    "url": "git+https://github.com/cnomura/devradar.git"
   },
-  "author": "filipedeschamps",
+  "author": "cnomura",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filipedeschamps/devradar/issues"
+    "url": "https://github.com/cnomura/devradar/issues"
   },
-  "homepage": "https://github.com/filipedeschamps/devradar#readme",
+  "homepage": "https://github.com/cnomura/devradar#readme",
   "dependencies": {
     "axios": "^0.19.1",
     "cors": "^2.8.5",
@@ -24,6 +24,6 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   }
 }

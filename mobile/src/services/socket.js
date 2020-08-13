@@ -4,11 +4,11 @@ const socket = socketio('http://localhost:5000', {
     autoConnect: false
 })
 
-function subscribeToNewDevs (subscribeFunction) {
+function subscribeToNewDevs(subscribeFunction) {
     socket.on('new-dev', subscribeFunction);
 }
 
-function connect (latitude, longitude, techs) {
+function connect(latitude, longitude, techs) {
     socket.io.opts.query = {
         latitude,
         longitude,
@@ -18,7 +18,7 @@ function connect (latitude, longitude, techs) {
     socket.connect();
 }
 
-function disconnect () {
+function disconnect() {
     if (socket.connected) {
         socket.disconnect();
     }

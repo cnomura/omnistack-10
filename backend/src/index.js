@@ -12,7 +12,9 @@ const app = express();
 const server = http.Server(app);
 
 const routes = require('./routes.js');
-const { setupWebsocket } = require('./websocket.js');
+const {
+    setupWebsocket
+} = require('./websocket.js');
 
 setupWebsocket(server);
 
